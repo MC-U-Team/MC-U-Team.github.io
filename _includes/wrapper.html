@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <header>
+		<h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+		<p class="header">{{ site.description | default: site.github.project_tagline }}</p>      
+    </header>
+
+    <section>
+		{{ content }}
+    </section>
+
+    <footer>
+		<p>
+			<small>
+				<a href="https://impressum.dekamc.de/datenschutzerkl%C3%A4rung.html">Privacy</a>
+				<br>
+				<a href="https://impressum.dekamc.de/impressum.html">Impressum</a>
+			</small>
+		</p>
+    </footer>
+</div>
