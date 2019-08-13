@@ -22,7 +22,7 @@ a:visited {
 }
 
 #main {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;    
     padding-top: 150px;
     padding-bottom: 60px;
@@ -55,5 +55,53 @@ a:visited {
     position: absolute;
     height: 60px;
     bottom: 0;
-    padding-left: 15%;
+    padding-left: 20%;
+}
+
+.cells {
+    display: table;
+    min-width: 100%;
+}
+
+.cells a {
+    display: inline-block;
+    margin-top: 0%;
+    width: 23%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#header {
+    display: inline-flex;
+    width: 100%;
+}
+
+#header img{
+    display: inline-block;
+    width: 20%;
+}
+
+#header div {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin: 0;
+}
+
+.cells a img {
+    width: 96%;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: block;
+    border-radius: 10px;
+}
+
+.cells a div {
+    margin: 2;
+    font-size: 100%;
+    text-align: center;
+    color: black;
 }
