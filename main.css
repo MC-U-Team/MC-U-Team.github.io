@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 70%;
+    display: block;
+    margin: 0 auto;    
+    margin-top: 150px;
+}
