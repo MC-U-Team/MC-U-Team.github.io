@@ -28,6 +28,22 @@ a:visited {
     padding-bottom: 60px;
 }
 
+.menu {
+    display: inline-flex;
+    margin: 60px auto;    
+    font-size: 180%;
+}
+
+.menu a {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+.menu div {
+    margin: 0 auto;
+}
+
 #container {
     position: relative;
     min-height: 100%;
